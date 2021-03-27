@@ -10,8 +10,8 @@ Provided Architecture:
 
 What you will need:
 * [Docker Desktop](https://www.docker.com/products/docker-desktop)
-* A [Code Editor][https://code.visualstudio.com/]
-* A command line terminal (one is included as part of visual studio code) and a basic understanding of [POSIX commands][http://web.cs.ucla.edu/~miryung/teaching/EE461L-Spring2012/labs/posix.html]
+* A [Code Editor](https://code.visualstudio.com/)
+* A command line terminal (one is included as part of visual studio code) and a basic understanding of [POSIX commands](http://web.cs.ucla.edu/~miryung/teaching/EE461L-Spring2012/labs/posix.html)
 * Patience and Persistence
 
 To get the environment running started:
@@ -35,5 +35,6 @@ To get the environment running started:
 * if you have a local redis-server instance running, you may need to temporarily disable that instance for the docker orchestration to complete.
 
 Additional Resources:
-* [Learn Ruby with RubyMonk Ruby Primer][http://rubymonk.com/learning/books/1-ruby-primer]
-* [Getting started with Rails][https://guides.rubyonrails.org/getting_started.html]
+* [Learn Ruby with RubyMonk Ruby Primer](http://rubymonk.com/learning/books/1-ruby-primer)
+* [Getting started with Rails](https://guides.rubyonrails.org/getting_started.html)
+* [Getting started with CRUD in Rails](https://medium.com/@nancydo7/ruby-on-rails-crud-tutorial-899117710c7a)
