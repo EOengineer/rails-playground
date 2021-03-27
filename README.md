@@ -1,12 +1,24 @@
 # README
 
-This README walks you through the setup of the Rails Playground.
+This project is intended to provide a fully transportable development environment that can be run on any system with a working Docker installation.  Additional links and resources are provided in this README to support those new to programming.
 
-To get started:
+Provided Architecture:
+* Postgresql database
+* Ruby Runtime
+* Ruby on Rails Web Application
+* Sidekiq queueing system for async processing
 
-* Install [Docker Desktop](https://www.docker.com/products/docker-desktop)
+What you will need:
+* [Docker Desktop](https://www.docker.com/products/docker-desktop)
+* A [Code Editor][https://code.visualstudio.com/]
+* A command line terminal (one is included as part of visual studio code) and a basic understanding of [POSIX commands][http://web.cs.ucla.edu/~miryung/teaching/EE461L-Spring2012/labs/posix.html]
+* Patience and Persistence
 
-* cd into this project directory
+To get the environment running started:
+
+* Make sure Docker Desktop is installed and running.
+
+* cd into this project directory.
 
 * Run ```docker-compose build``` to build the containers.
 
@@ -21,3 +33,7 @@ To get started:
 * any additional rails commands that would typically be run locally (such as generator commands) can be run with: ```docker-compose run web your-command-here```
 
 * if you have a local redis-server instance running, you may need to temporarily disable that instance for the docker orchestration to complete.
+
+Additional Resources:
+* [Learn Ruby with RubyMonk Ruby Primer][http://rubymonk.com/learning/books/1-ruby-primer]
+* [Getting started with Rails][https://guides.rubyonrails.org/getting_started.html]
