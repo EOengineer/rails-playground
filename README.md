@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This README walks you through the setup of the Rails Playground.
 
-Things you may want to cover:
+To get started:
 
-* Ruby version
+* Install [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
-* System dependencies
+* cd into this project directory
 
-* Configuration
+* Run ```docker-compose build``` to build the containers.
 
-* Database creation
+* Run ```docker-compose run web rails db:create``` to create the database
 
-* Database initialization
+* Run ```docker-compose run web rails db:migrate``` to run database migrations
 
-* How to run the test suite
+* It may be necessary to run ```docker-compose run web rails webpacker:install``` to install front end dependencies if you receive a webpacker exception when visiting the home page
 
-* Services (job queues, cache servers, search engines, etc.)
+* visit [localhost:3001](localhost:3001)
 
-* Deployment instructions
+* any additional rails commands that would typically be run locally (such as generator commands) can be run with: ```docker-compose run web your-command-here```
 
-* ...
+* if you have a local redis-server instance running, you may need to temporarily disable that instance for the docker orchestration to complete.
