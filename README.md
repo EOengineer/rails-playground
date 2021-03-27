@@ -9,12 +9,14 @@ Provided Architecture:
 * Sidekiq queueing system for async processing
 
 What you will need:
+* a Github account
 * [Docker Desktop](https://www.docker.com/products/docker-desktop)
 * A [Code Editor](https://code.visualstudio.com/)
 * A command line terminal (one is included as part of visual studio code) and a basic understanding of [POSIX commands](http://web.cs.ucla.edu/~miryung/teaching/EE461L-Spring2012/labs/posix.html)
 * Patience and Persistence
 
 To get the environment running started:
+* Clone this repository ```git clone https://github.com/EOengineer/rails-playground.git```
 
 * Make sure Docker Desktop is installed and running.
 
